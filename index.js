@@ -9,7 +9,6 @@ var path = require('path');
 var fs = require('fs');
 
 const app = express();
-console.log("testing")
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
