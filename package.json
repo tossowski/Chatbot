@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "actions-on-google": "^2.5.0",
+        "dialogflow-fulfillment": "^0.5.0",
+        "express": "^4.16.4",
+        "fs": "^0.0.1-security",
+        "https": "^1.0.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
