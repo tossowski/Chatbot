@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial- scale=1, user-scalable=no"/>
+<title>Dialog</title>
+</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="alex.css" />
+
+    <script src="./alex.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    
+
+    
+     
+     </script>
+
+
+
+     <body>
+        <div id="MarkContainer">
+            <p class = "pageText">Please chat with this agent until he says Goodbye. You can respond with as much detail as you like (or even skip a question by pressing the submit button with an empty textbox if you feel it is too personal). Please try to answer in complete sentences. Your responses will not be recorded. </br></br>
+                When the conversation ends, you will be presented with a mystery number which you should use to fill out a survey that will be provided. You can start the conversation by asking the agent what its name is.</p>
+            <div>
+                <img id="Watermark" src="./public/watermark.png">
+                <img id="Alex" src="./public/alex.gif"></img>
+            </div>
+            
+        </div>
+        <div id="responseContainer">
+            <p class = "pageText" id = "agentResponse"><b>Agent Response:</b> </p>
+            <p class = "pageText" id = "mysteryNum"></p>
+            <p class = "pageText">Type Your Responses Below:</p>
+            <textarea rows="5" id="response"></textarea>
+            <button class = "pageText" id="responseButton">
+                Submit
+            </button>
+        </div>
+        
+     </body>
+
+</hmtl>
