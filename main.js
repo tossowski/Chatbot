@@ -45,7 +45,8 @@ window.onload = function() {
     responseButton.onclick = function() {
         if (idx == generalQuestionPool.length) {
             let mys = document.getElementById("mysteryNum");
-            mys.innerHTML = "Your mystery number is: " + Math.floor(mystery_num / generalQuestionPool.length) + " Please use it to fill out this <a href=https://forms.gle/uKrJ8hh94gNewrrw5 target=_blank>survey</a>";
+            mys.innerHTML = "Your mystery number is: " + Math.floor(mystery_num / (generalQuestionPool.length - 1)) + " Please use it to fill out this <a href=https://forms.gle/uKrJ8hh94gNewrrw5 target=_blank>survey</a>";
+
             
             return;
         }
